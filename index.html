@@ -90,10 +90,43 @@
 
 
 <br><hr>
+<h4>Registration From </h4>
     <form action="action.php">
-        <input type="text" placeholder="Type your name: ">
-        <input type="password" placeholder="Enter your password">
-    </form>
+        <input type="text" placeholder="Type your name: "><br><br>
+        <input type="password" placeholder="Enter your password"><br>
+
+        <h5>Select class</h5>
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI <br><br>
+
+    </label>
+    <label for="49">
+        <input type="radio" value="class XII" name="class" id="49">class XII <br><br>
+    </label>
+
+    <h5>Select Subject</h5>
+    <label for="101">
+        <input type="checkbox" value="math" name="Subject" id="101">math <br><br>
+        <input type="checkbox" value="physics" name="Subject" id="102">physics <br><br>
+        <input type="checkbox" value="chemistry" name="Subject" id="103">chemistry <br><br>
+        <input type="checkbox" value="biology" name="Subject" id="104">biology <br><br>
+    </label>
+    <br>
+    <h5>Select your city</h5>
+    <select name="city">
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Barishal">Barishal</option>
+        <option value="Chatgram">Chatgram</option>
+    </select>
+    <br><br>
+<br><br>
+    <textarea name="feedback" id="210" placeholder="please give your opinion" rows="5">Feedback</textarea>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfLoec5hl3I?si=QwpgjkWQ6or6jPGx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><input type="submit" value="submit">    
+</form>
+<br>
 
 </body>
 </html>
