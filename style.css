@@ -1,3 +1,22 @@
-h1{
+*{
+    color:chocolate;
+}
+
+#h2{
     color: blue;
+    background-color: cyan;
+}
+#h3{
+    color: darkslategray;
+}
+p{
+    color: peru;
+    background-color: black;
+}
+button{
+    color:darkorchid;
+    background-color: black;
+}
+body{
+    background-color:antiquewhite;
 }
