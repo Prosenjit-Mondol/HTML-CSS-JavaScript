@@ -1,22 +1,11 @@
-*{
-    color:chocolate;
+#box{
+    color: white;
+    background-color: blueviolet;
+}
+.heading{
+    color: rebeccapurple;
 }
 
-#h2{
-    color: blue;
-    background-color: cyan;
-}
-.myclasss{
-    color: darkslategray;
-}
-p{
-    color: peru;
-    background-color: black;
-}
 button{
-    color:darkorchid;
-    background-color: black;
-}
-body{
-    background-color:antiquewhite;
+    background-color: red;
 }
