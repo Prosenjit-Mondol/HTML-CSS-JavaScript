@@ -41,6 +41,16 @@ btn1.onclick = () => {
 }
 
 let div=document.querySelector("div");
+
+let cur="blue";
+
 div.onmouseover=()=>{
     console.log("YOU ArE inside box")
+    if (cur=="blue") {
+        cur="dark";
+    }
+    else
+    cur="blue";
+
+    console.log(cur);
 }
