@@ -13,3 +13,18 @@ for (let index = 0; index < marks.length; index++) {
     sum+= marks[index];
 }
 console.log("The total sum of the marks is ",sum);
+
+function su(x,y){
+    s=x+y;
+    return s;
+}
+
+let va=su(5,8);
+
+console.log(va);
+
+let str=["Prosenjit","Pritha","Aishariya","Tofha"];
+
+str.forEach((val,idx) =>{
+    console.log(idx,val);
+});
